@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.want{
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.want:hover {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg); 
+}
+.fairy {
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+} 
+.fairy:hover{
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.moon {
+    -webkit-transition: .9s ease-in-out;
+    transition: .9s ease-in-out;
+}
+.moon:hover {
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+.flex-conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-conteiner div{
+    border: 15px solid rgb(0, 0, 0);
+}
+nav{
+    height: 5vh;
+    background-color: rgb(0, 3, 2);
+    color: rgb(146, 208, 231);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    justify-content: space-evenly;
+}
+main{
+    background: radial-gradient(ellipse farthest-corner at 90% 90%,
+    rgb(142, 131, 37),
+    rgb(46, 46, 18) 10%,
+    #051b30 50%,
+    rgb(0, 0, 0))
+}
+a{
+    color: aliceblue;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ghost{
+    top: 2px;
+    height: 5vh;
+}
